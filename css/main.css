@@ -1,0 +1,77 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+body {
+    background-color: #a76571;
+}
+
+.main-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+select {
+    width: 7em;
+}
+
+button {
+    text-align: center;
+    background-color: #dba3ab;
+    border: 1px solid #D8DCFF;
+    border-radius: 10px;
+}
+
+.todo-filter {
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list,
+.todo-filter {
+    background-color: #AEADF0;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.todo-stat {
+    background-color: #D8DCFF;
+    padding: 5px;
+    margin: 5px;
+}
+
+.todo-stat span {
+    color: #0c0c11;
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.created-at {
+    color: gray;
+    font-size: 13px;
+}
+
+.low {
+    color: green;
+}
+
+.medium {
+    color: yellow;
+}
+
+.high {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
